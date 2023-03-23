@@ -100,7 +100,15 @@ export function SignInScreen({title}) {
         </Button>
       </View>
       <View style={{marginTop: 25, marginLeft: 20}}>
-        <Text style={{...styles.text1}}>New on SattiFood ?</Text>
+        <Text style={{...styles.text1}}>New on Xatti'sFood ?</Text>
+      </View>
+      <View style={{alignItems: 'flex-end', marginHorizontal: 20}}>
+        <Button
+          style={[styles.createButton, styles.createButtonTitle]}
+          mode="outlined"
+          onPress={() => console.log('Pressed')}>
+          Create an account
+        </Button>
       </View>
       <View style={{alignItems: 'flex-end', marginHorizontal: 20}}>
         <Button
@@ -211,15 +219,17 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#ff8c52',
     height: 40,
-    paddingHorizontal: 20,
+    // paddingHorizontal: 1,
+    color: '#ff8c52',
+    // paddingBottom: 1,
   },
 
   createButtonTitle: {
     color: '#ff8c52',
-    fontSize: 16,
+    fontSize: 38,
     fontWeight: 'bold',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 12,
+    marginTop: 14,
   },
 });
