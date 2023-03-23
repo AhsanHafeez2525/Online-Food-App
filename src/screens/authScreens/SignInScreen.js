@@ -13,13 +13,13 @@ import Icon from 'react-native-vector-icons/AntDesign';
 import Visibility from 'react-native-vector-icons/MaterialIcons';
 import Header from '../../components/Header';
 import {Button} from 'react-native-paper';
-export function SignInScreen({title}) {
+export function SignInScreen({navigation}) {
   const [textInput2Foccused, setTextInput2Foccused] = useState(false);
   const textInput1 = useRef(1);
   const textInput2 = useRef(2);
   return (
     <View style={styles.container}>
-      <Header title="MY ACCOUNT" type="arrowleft" />
+      <Header title="MY ACCOUNT" type="arrowleft" navigation={navigation} />
       <View style={{marginLeft: 20, marginTop: 10}}>
         <Text style={styles.text2}>Sign-In</Text>
       </View>
@@ -101,14 +101,6 @@ export function SignInScreen({title}) {
       </View>
       <View style={{marginTop: 25, marginLeft: 20}}>
         <Text style={{...styles.text1}}>New on Xatti'sFood ?</Text>
-      </View>
-      <View style={{alignItems: 'flex-end', marginHorizontal: 20}}>
-        <Button
-          style={[styles.createButton, styles.createButtonTitle]}
-          mode="outlined"
-          onPress={() => console.log('Pressed')}>
-          Create an account
-        </Button>
       </View>
       <View style={{alignItems: 'flex-end', marginHorizontal: 20}}>
         <Button
