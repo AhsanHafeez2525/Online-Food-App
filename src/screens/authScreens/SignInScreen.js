@@ -68,7 +68,7 @@ export function SignInScreen({navigation}) {
         <Button
           mode="contained"
           style={[styles.styledButton, styles.titleStyleButton]}
-          onPress={() => console.log('Pressed')}>
+          onPress={() => navigation.navigate('HomeScreen')}>
           Sign In
         </Button>
       </View>
@@ -211,11 +211,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#ff8c52',
     height: 40,
-    // paddingHorizontal: 1,
     color: '#ff8c52',
-    // paddingBottom: 1,
   },
-
   createButtonTitle: {
     color: '#ff8c52',
     fontSize: 38,

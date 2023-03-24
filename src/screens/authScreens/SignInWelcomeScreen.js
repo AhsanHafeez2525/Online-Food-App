@@ -21,15 +21,19 @@ export default function SignInWelcomeScreen({navigation}) {
           alignItems: 'center',
           paddingTop: 20,
         }}>
-        <Text style={{fontSize: 26, color: colors.buttons, fontWeight: 'bold'}}>
+        {/* <Text style={{fontSize: 26, color: colors.buttons, fontWeight: 'bold'}}>
           DISCOVER RESTAURANTS
         </Text>
         <Text style={{fontSize: 26, color: colors.buttons, fontWeight: 'bold'}}>
           IN YOUR AREA
-        </Text>
+        </Text> */}
+        <Image
+          source={require('../../../assests/images/food-removebg-preview.png')}
+          style={{width: 200, height: 190, marginRight: 35}}
+        />
       </View>
 
-      <View style={{flex: 4, justifyContent: 'center'}}>
+      <View style={{flex: 4, justifyContent: 'center', marginTop: 40}}>
         <Swiper autoplay={true}>
           <View style={styles.slide1}>
             <Image
@@ -84,7 +88,7 @@ export default function SignInWelcomeScreen({navigation}) {
             Sign In
           </Button>
         </View>
-        <View style={{marginHorizontal: 20, marginTop: 10}}>
+        <View style={{marginHorizontal: 20, marginTop: 10, marginBottom: 20}}>
           <Button
             style={[styles.createButton, styles.createButtonTitle]}
             mode="outlined"

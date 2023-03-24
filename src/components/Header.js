@@ -2,7 +2,6 @@ import React from 'react';
 import {StyleSheet, Text, View, Dimensions, Image} from 'react-native';
 import {colors, parameters} from '../global/styles';
 import Icon from 'react-native-vector-icons/AntDesign';
-
 const Header = ({title, type, navigation}) => {
   return (
     <View style={styles.header}>
@@ -20,7 +19,6 @@ const Header = ({title, type, navigation}) => {
     </View>
   );
 };
-
 const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
