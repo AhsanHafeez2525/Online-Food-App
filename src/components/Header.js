@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     height: parameters.headerHeight,
   },
   headerText: {
-    color: colors.headerText,
+    color: colors.heaherText,
     fontSize: 22,
     fontWeight: 'bold',
     marginLeft: 30,

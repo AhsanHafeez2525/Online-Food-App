@@ -89,7 +89,8 @@ export const restaurantsData = [
     restaurantName: 'Mc Donalds',
     farAway: '21.2',
     businessAddress: '22 Bessie street, Cape Town',
-    images: 'https://bukasapics.s3.us-east-2.amazonaws.com/chicken.png',
+    images:
+      'https://c4.wallpaperflare.com/wallpaper/374/404/846/brown-bird-perching-during-daytime-wren-wren-wallpaper-preview.jpg',
     averageReview: 4.9,
     numberOfReview: 272,
     coordinates: {lat: -26.1888612, lng: 28.246325},
@@ -121,7 +122,8 @@ export const restaurantsData = [
     restaurantName: 'KFC',
     farAway: '12.7',
     businessAddress: '22 Bessie street, Cape Town',
-    images: 'https://bukasapics.s3.us-east-2.amazonaws.com/macdo.png',
+    images:
+      'https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg',
     averageReview: 4.3,
     numberOfReview: 306,
     coordinates: {lat: -26.1891648, lng: 28.2441808},
@@ -153,7 +155,8 @@ export const restaurantsData = [
     restaurantName: 'Steers',
     farAway: '5',
     businessAddress: ' 17 Olivia Rd, Johannesburg',
-    images: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png',
+    images:
+      'https://media.istockphoto.com/id/1268693109/photo/roast-chicken.jpg?s=170667a&w=0&k=20&c=1vSlAy98B8_wpY_-VtuzO2vpXG3g_cAygU6Cy3a_AgI=',
     coordinates: {lat: -26.1886781, lng: 28.244879},
     averageReview: 4.9,
     numberOfReview: 1272,
@@ -185,7 +188,8 @@ export const restaurantsData = [
     restaurantName: 'Roman Pizza',
     farAway: '7',
     businessAddress: ' 15 Atlas Rd, Kempton Park',
-    images: 'https://bukasapics.s3.us-east-2.amazonaws.com/pizza6.png',
+    images:
+      'https://c4.wallpaperflare.com/wallpaper/1017/647/742/food-pizza-still-life-hd-wallpaper-preview.jpg',
     averageReview: 4.3,
     numberOfReview: 700,
     coordinates: {lat: -26.1845336, lng: 28.2481691},
