@@ -68,7 +68,7 @@ export function SignInScreen({navigation}) {
         <Button
           mode="contained"
           style={[styles.styledButton, styles.titleStyleButton]}
-          onPress={() => navigation.navigate('HomeScreen')}>
+          onPress={() => navigation.navigate('RootClientTabs')}>
           Sign In
         </Button>
       </View>

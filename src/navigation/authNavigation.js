@@ -3,6 +3,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import SignInWelcomeScreen from '../screens/authScreens/SignInWelcomeScreen';
 import {SignInScreen} from '../screens/authScreens/SignInScreen';
 import HomeScreen from '../screens/authScreens/HomeScreen';
+import RootClientTabs from './ClientTabs';
 const Stack = createNativeStackNavigator();
 export function SignForm() {
   return (
@@ -22,8 +23,8 @@ export function SignForm() {
         }}
       />
       <Stack.Screen
-        name="HomeScreen"
-        component={HomeScreen}
+        name="RootClientTabs"
+        component={RootClientTabs}
         options={{
           headerShown: false,
         }}
